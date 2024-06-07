@@ -1,0 +1,6 @@
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
+github.com/sufimalek/emailvalidator v0.0.0-20240607044852-1734ce7703ce h1:59IiH73YQwIGvqoMu+/ZMBies5jGbtHwLRsHX0gKDV0=
+github.com/sufimalek/emailvalidator v0.0.0-20240607044852-1734ce7703ce/go.mod h1:JLUqjLec0nk6iea1YGbUUw9HV6aK/O3SuX91B6Wxz5E=
+github.com/sufimalek/emailvalidator v0.0.0-20240607061551-6e059f085c80 h1:NZicVkS60af88TuCRJQ+tK7S48dv3ecUy9nXMrFry3Q=
+github.com/sufimalek/emailvalidator v0.0.0-20240607061551-6e059f085c80/go.mod h1:JLUqjLec0nk6iea1YGbUUw9HV6aK/O3SuX91B6Wxz5E=
