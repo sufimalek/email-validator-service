@@ -1,7 +1,7 @@
 
 # Email Validator Service
 ## What is this repository for? ##
-this is email validator service using emailvalidator library
+This is email validator service using [emailvalidator](https://github.com/sufimalek/emailvalidator) library
 
 ## Project Layout ##
 
@@ -22,6 +22,10 @@ email-validator-service/
 |-- go.sum
 |-- README.md
 ```
+
+## Library used for this service
+
+### [EmailValidator] https://github.com/sufimalek/emailvalidator
 
 
 ## How do I get set up? ##
