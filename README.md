@@ -4,6 +4,12 @@
 
 The Email Validator Service is a comprehensive and production-ready service built in Go, designed to validate email addresses through various checks. It supports multiple validation mechanisms including syntax validation, role-based email checks, MX records verification, SMTP validation, and more.
 
+# Validator Service
+
+This Validator Service utilizes the [**EmailValidator**](https://github.com/sufimalek/emailvalidator) library as a third-party module for email validation. The **EmailValidator** library can be found [here](https://github.com/sufimalek/emailvalidator). 
+
+This service offers robust email validation functionality to enhance the reliability of your application's data processing.
+
 ## Features
 
 - **Syntax Validation**: Ensures the email address follows standard email syntax rules.
