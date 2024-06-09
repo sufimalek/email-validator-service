@@ -9,6 +9,7 @@ BINARY_UNIX=$(BINARY_NAME)_unix
 
 # Directories
 CMD_DIR=cmd/server
+BUILD_DIR=email-validator-service/cmd/server
 TEST_DIR=./...
 
 # Default target executed when no arguments are given to make
@@ -16,7 +17,7 @@ all: test build
 
 # Build the binary
 build:
-	$(GOBUILD) -o $(BINARY_NAME) $(CMD_DIR)
+	$(GOBUILD) -o $(BINARY_NAME) $(BUILD_DIR)
 
 # Run the binary
 run:

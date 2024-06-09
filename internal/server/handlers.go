@@ -8,18 +8,20 @@ import (
 	"github.com/sufimalek/emailvalidator/validators"
 )
 
-type ValidationRequest struct {
+type ValidateEmailRequest struct {
 	Email string `json:"email"`
 }
 
-type ValidationResponse struct {
+type ValidateEmailResponse struct {
 	IsValid bool   `json:"is_valid"`
-	Message string `json:"message,omitempty"`
+	Message string `json:"message"`
 }
 
-func ValidateEmail(w http.ResponseWriter, r *http.Request) {
-	var req ValidationRequest
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+func ValidateEmailHandler(w http.ResponseWriter, r *http.Request) {
+	var req ValidateEmailRequest
+
+	err := json.NewDecoder(r.Body).Decode(&req)
+	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
@@ -38,14 +40,16 @@ func ValidateEmail(w http.ResponseWriter, r *http.Request) {
 		Build()
 
 	isValid := chain.Validate(req.Email)
-
-	response := ValidationResponse{
-		IsValid: isValid,
-	}
+	message := "Email is valid"
 	if !isValid {
-		response.Message = "Email validation failed"
+		message = "Email validation failed"
+	}
+
+	resp := ValidateEmailResponse{
+		IsValid: isValid,
+		Message: message,
 	}
 
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(response)
+	json.NewEncoder(w).Encode(resp)
 }

@@ -1,6 +1,14 @@
+github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA=
+github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
 github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
 github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
-github.com/sufimalek/emailvalidator v0.0.0-20240607044852-1734ce7703ce h1:59IiH73YQwIGvqoMu+/ZMBies5jGbtHwLRsHX0gKDV0=
-github.com/sufimalek/emailvalidator v0.0.0-20240607044852-1734ce7703ce/go.mod h1:JLUqjLec0nk6iea1YGbUUw9HV6aK/O3SuX91B6Wxz5E=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 github.com/sufimalek/emailvalidator v0.0.0-20240607061551-6e059f085c80 h1:NZicVkS60af88TuCRJQ+tK7S48dv3ecUy9nXMrFry3Q=
 github.com/sufimalek/emailvalidator v0.0.0-20240607061551-6e059f085c80/go.mod h1:JLUqjLec0nk6iea1YGbUUw9HV6aK/O3SuX91B6Wxz5E=
+github.com/sufimalek/emailvalidator v0.0.0-20240609042959-e5d508e283a2 h1:iJod9vPMOiYGn3MomKAHdLI9mPeWkWf4c6QZhsIRqPA=
+github.com/sufimalek/emailvalidator v0.0.0-20240609042959-e5d508e283a2/go.mod h1:JLUqjLec0nk6iea1YGbUUw9HV6aK/O3SuX91B6Wxz5E=
+github.com/sufimalek/webwatcher v0.0.0-20240607113630-9609a85400e3 h1:zVqofSAiyKLt0ficuPKoT49ZbmpB9fgPfl17tzbqeBk=
+github.com/sufimalek/webwatcher v0.0.0-20240607113630-9609a85400e3/go.mod h1:VQv3pYifpMmeWPxGQl4A0pLcCLQc2lIUys7tN0enfNc=
+golang.org/x/sys v0.4.0 h1:Zr2JFtRQNX3BCZ8YtxRE9hNJYC8J6I1MVbMg6owUp18=
+golang.org/x/sys v0.4.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=

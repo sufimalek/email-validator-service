@@ -4,8 +4,15 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func NewRouter() *mux.Router {
-	r := mux.NewRouter()
-	r.HandleFunc("/api/validate", ValidateEmail).Methods("POST")
-	return r
+// SetupRouter sets up the routes and middleware
+func SetupRouter() *mux.Router {
+	router := mux.NewRouter()
+
+	// Apply middleware
+	router.Use(LoggingMiddleware)
+
+	// Setup routes
+	router.HandleFunc("/api/validate", ValidateEmailHandler).Methods("POST")
+
+	return router
 }
